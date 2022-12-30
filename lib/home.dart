@@ -13,6 +13,16 @@ class _HomeState extends State<Home> {
 //  7
   int _selectedIndex = 0;
 
+  // 8
+  static List<Widget> pages = <Widget>[
+    //Todo: Replace with Card1
+    Container(color: Colors.red),
+    //  Todo: Replace with Card2
+    Container(color: Colors.green),
+    //  TODO: Replace with Card3
+    Container(color: Colors.blue),
+  ];
+
 
   @override
   Widget build(BuildContext context) {
