@@ -38,10 +38,9 @@ class _HomeState extends State<Home> {
             // 2
             style: Theme.of(context).textTheme.headline6),
       ),
-      body: Center(
-          child: Text('Let\'s get cooking',
-              // 3
-              style: Theme.of(context).textTheme.headline1)),
+
+      // TODO: Show selected tab
+      body: pages[_selectedIndex],
       // TODO: Add bottom navigation bar
       // 4
       bottomNavigationBar: BottomNavigationBar(
