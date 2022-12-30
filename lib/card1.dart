@@ -15,5 +15,7 @@ class Card1 extends StatelessWidget {
     return Center(
         //  TODO: Card1 Decorate Container
         child: Container());
+      // 1
+      padding: const EdgeInsets.all(16),
   }
 }
