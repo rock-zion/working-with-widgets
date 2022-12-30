@@ -17,6 +17,7 @@ class Fooderlich extends StatelessWidget {
     // 3
     return MaterialApp(
       // TODO: Add theme
+      theme: theme,
       title: 'Fooderlich',
       // 4
       home: Scaffold(
