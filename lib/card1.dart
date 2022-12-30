@@ -26,6 +26,9 @@ class Card1 extends StatelessWidget {
               // 5
               image: AssetImage('assets/mag1.png'),
               // 6
+              fit: BoxFit.cover),
+          // 7
+          borderRadius: BorderRadius.all(Radius.circular(10.0))),
     ));
   }
 }
