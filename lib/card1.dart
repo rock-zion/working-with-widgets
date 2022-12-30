@@ -17,5 +17,7 @@ class Card1 extends StatelessWidget {
         child: Container());
       // 1
       padding: const EdgeInsets.all(16),
+      // 2
+      constraints: const BoxConstraints.expand(width: 350, height: 450),
   }
 }
