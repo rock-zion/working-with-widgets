@@ -21,6 +21,11 @@ class Card1 extends StatelessWidget {
       constraints: const BoxConstraints.expand(width: 350, height: 450),
       // 3
       decoration: const BoxDecoration(
+          // 4
+          image: DecorationImage(
+              // 5
+              image: AssetImage('assets/mag1.png'),
+              // 6
     ));
   }
 }
