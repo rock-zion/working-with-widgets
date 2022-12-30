@@ -23,6 +23,12 @@ class _HomeState extends State<Home> {
     Container(color: Colors.blue),
   ];
 
+  // 9
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
