@@ -43,6 +43,8 @@ class _HomeState extends State<Home> {
           selectedItemColor:
               Theme.of(context).textSelectionTheme.selectionColor,
           //  TODO: Set selected tab bar
+          // 10
+          currentIndex: _selectedIndex,
           //  6
           items: <BottomNavigationBarItem>[
             const BottomNavigationBarItem(
