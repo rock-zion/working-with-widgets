@@ -45,6 +45,8 @@ class _HomeState extends State<Home> {
           //  TODO: Set selected tab bar
           // 10
           currentIndex: _selectedIndex,
+          // 11
+          onTap: _onItemTapped,
           //  6
           items: <BottomNavigationBarItem>[
             const BottomNavigationBarItem(
