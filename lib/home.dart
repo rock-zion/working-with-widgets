@@ -10,6 +10,9 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
 //  TODO: Add state variables and functions
+//  7
+  int _selectedIndex = 0;
+
 
   @override
   Widget build(BuildContext context) {
