@@ -35,6 +35,14 @@ class Card1 extends StatelessWidget {
             category,
             style: FooderlichTheme.darkTextTheme.bodyText1,
           ),
+          // 9
+          Positioned(
+            top: 20,
+            child: Text(
+              title,
+              style: FooderlichTheme.darkTextTheme.headline2,
+            ),
+          ),
     ));
   }
 }
