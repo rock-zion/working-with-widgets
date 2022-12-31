@@ -30,6 +30,8 @@ class Card1 extends StatelessWidget {
               fit: BoxFit.cover),
           // 7
           borderRadius: BorderRadius.all(Radius.circular(10.0))),
+      child: Stack(
+        children: [
           // 8
           Text(
             category,
@@ -61,6 +63,8 @@ class Card1 extends StatelessWidget {
               style: FooderlichTheme.darkTextTheme.bodyText1,
             ),
           ),
+        ],
+      ),
     ));
   }
 }
