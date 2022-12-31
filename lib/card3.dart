@@ -27,6 +27,8 @@ class Card3 extends StatelessWidget {
                   borderRadius: const BorderRadius.all(Radius.circular(10.0))),
             ),
             // TODO 6: Add Container, Column, Icon and Text
+              // 3
+              padding: const EdgeInsets.all(16),
             // TODO 7: Add Center widget with Chip widget children
           ],
         ),
