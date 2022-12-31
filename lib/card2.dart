@@ -35,6 +35,18 @@ class Card2 extends StatelessWidget {
                           style: FooderlichTheme.lightTextTheme.headline1,
                         ),
                       ),
+                      // 4
+                      Positioned(
+                        bottom: 70,
+                        left: 16,
+                        child: RotatedBox(
+                          quarterTurns: 3,
+                          child: Text(
+                            'Smoothies',
+                            style: FooderlichTheme.lightTextTheme.headline1,
+                          ),
+                        ),
+                      )
                     ],
                   ),
                 ),
