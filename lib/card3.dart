@@ -33,6 +33,11 @@ class Card3 extends StatelessWidget {
               child: Column(
                 // 5
                 crossAxisAlignment: CrossAxisAlignment.start,
+                  const Icon(
+                    Icons.book,
+                    color: Colors.white,
+                    size: 40,
+                  ),
               ),
             // TODO 7: Add Center widget with Chip widget children
           ],
