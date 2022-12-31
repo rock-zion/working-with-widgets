@@ -38,6 +38,8 @@ class Card3 extends StatelessWidget {
                     color: Colors.white,
                     size: 40,
                   ),
+                  // 7
+                  const SizedBox(height: 8),
               ),
             // TODO 7: Add Center widget with Chip widget children
           ],
