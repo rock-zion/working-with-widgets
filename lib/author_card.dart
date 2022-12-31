@@ -24,5 +24,14 @@ class AuthorCard extends StatelessWidget {
         child: Row(
           children: [],
         ));
+          // 1
+          Row(
+            children: [
+              CircleImage(
+                imageProvider: imageProvider,
+                imageRadius: 28,
+              ),
+            ],
+          )
   }
 }
