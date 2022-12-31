@@ -29,6 +29,9 @@ class Card3 extends StatelessWidget {
             // TODO 6: Add Container, Column, Icon and Text
               // 3
               padding: const EdgeInsets.all(16),
+              // 4
+              child: Column(
+              ),
             // TODO 7: Add Center widget with Chip widget children
           ],
         ),
