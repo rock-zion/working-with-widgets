@@ -30,6 +30,11 @@ class Card1 extends StatelessWidget {
               fit: BoxFit.cover),
           // 7
           borderRadius: BorderRadius.all(Radius.circular(10.0))),
+          // 8
+          Text(
+            category,
+            style: FooderlichTheme.darkTextTheme.bodyText1,
+          ),
     ));
   }
 }
