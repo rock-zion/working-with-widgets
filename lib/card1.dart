@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'fooderlich_theme.dart';
 
 class Card1 extends StatelessWidget {
   const Card1({Key? key}) : super(key: key);
@@ -16,6 +17,7 @@ class Card1 extends StatelessWidget {
         //  TODO: Card1 Decorate Container
         child: Container(
       // TODO: Add a stack of text
+
       // 1
       padding: const EdgeInsets.all(16),
       // 2
