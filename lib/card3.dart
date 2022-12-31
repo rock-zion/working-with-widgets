@@ -31,6 +31,8 @@ class Card3 extends StatelessWidget {
               padding: const EdgeInsets.all(16),
               // 4
               child: Column(
+                // 5
+                crossAxisAlignment: CrossAxisAlignment.start,
               ),
             // TODO 7: Add Center widget with Chip widget children
           ],
