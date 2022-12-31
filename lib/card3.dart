@@ -45,6 +45,9 @@ class Card3 extends StatelessWidget {
                     'Recipe Trends',
                     style: FooderlichTheme.darkTextTheme.headline2,
                   ),
+                  // 9
+                  const SizedBox(height: 30),
+                ],
               ),
             // TODO 7: Add Center widget with Chip widget children
           ],
