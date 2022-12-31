@@ -48,8 +48,10 @@ class AuthorCard extends StatelessWidget {
                 ],
               ),
             ],
-          )
+          ),
           // TODO 2: add IconButton
+          IconButton(
+          ),
         ],
       ),
     );
