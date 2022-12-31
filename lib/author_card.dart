@@ -15,7 +15,14 @@ class AuthorCard extends StatelessWidget {
       this.imageProvider})
       : super(key: key);
 
+  // 2
   @override
   Widget build(BuildContext context) {
+    // TODO: Replace return Container(...);
+    return Container(
+        padding: const EdgeInsets.all(16),
+        child: Row(
+          children: [],
+        ));
   }
 }
