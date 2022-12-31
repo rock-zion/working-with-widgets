@@ -20,10 +20,10 @@ class AuthorCard extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: Replace return Container(...);
     return Container(
-        padding: const EdgeInsets.all(16),
-        child: Row(
-          children: [],
-        ));
+      padding: const EdgeInsets.all(16),
+      child: Row(
+        // TODO 3: add alignment
+        children: [
           // 1
           Row(
             children: [
@@ -49,5 +49,9 @@ class AuthorCard extends StatelessWidget {
               ),
             ],
           )
+          // TODO 2: add IconButton
+        ],
+      ),
+    );
   }
 }
