@@ -31,6 +31,8 @@ class AuthorCard extends StatelessWidget {
                 imageProvider: imageProvider,
                 imageRadius: 28,
               ),
+              // 2
+              const SizedBox(width: 8),
             ],
           )
   }
