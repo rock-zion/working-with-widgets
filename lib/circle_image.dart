@@ -7,6 +7,10 @@ class CircleImage extends StatelessWidget {
     this.imageRadius = 20,
   }) : super(key: key);
 
+  // 2
+  final double imageRadius;
+  final ImageProvider? imageProvider;
+
   @override
   Widget build(BuildContext context) {
   }
