@@ -26,6 +26,15 @@ class Card2 extends StatelessWidget {
                   // 2
                   child: Stack(
                     children: [
+                      // 3
+                      Positioned(
+                        bottom: 16,
+                        right: 16,
+                        child: Text(
+                          'Recipe',
+                          style: FooderlichTheme.lightTextTheme.headline1,
+                        ),
+                      ),
                     ],
                   ),
                 ),
