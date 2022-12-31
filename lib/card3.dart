@@ -63,6 +63,67 @@ class Card3 extends StatelessWidget {
                 spacing: 12,
                 // 14
                 runSpacing: 12,
+                // 15
+                children: [
+                  Chip(
+                    label: Text('Healthy',
+                        style: FooderlichTheme.darkTextTheme.bodyText1),
+                    backgroundColor: Colors.black.withOpacity(0.7),
+                    onDeleted: () {
+                      print('delete');
+                    },
+                  ),
+                  Chip(
+                    label: Text('Vegan',
+                        style: FooderlichTheme.darkTextTheme.bodyText1),
+                    backgroundColor: Colors.black.withOpacity(0.7),
+                    onDeleted: () {
+                      print('delete');
+                    },
+                  ),
+                  Chip(
+                    label: Text('Carrots',
+                        style: FooderlichTheme.darkTextTheme.bodyText1),
+                    backgroundColor: Colors.black.withOpacity(0.7),
+                  ),
+                  Chip(
+                    label: Text('Greens',
+                        style: FooderlichTheme.darkTextTheme.bodyText1),
+                    backgroundColor: Colors.black.withOpacity(0.7),
+                    onDeleted: () {
+                      print('delete');
+                    },
+                  ),
+                  Chip(
+                    label: Text('Wheat',
+                        style: FooderlichTheme.darkTextTheme.bodyText1),
+                    backgroundColor: Colors.black.withOpacity(0.7),
+                    onDeleted: () {
+                      print('delete');
+                    },
+                  ),
+                  Chip(
+                    label: Text('Pescetarian',
+                        style: FooderlichTheme.darkTextTheme.bodyText1),
+                    backgroundColor: Colors.black.withOpacity(0.7),
+                  ),
+                  Chip(
+                    label: Text('Mint',
+                        style: FooderlichTheme.darkTextTheme.bodyText1),
+                    backgroundColor: Colors.black.withOpacity(0.7),
+                    onDeleted: () {
+                      print('delete');
+                    },
+                  ),
+                  Chip(
+                    label: Text('Lemongrass',
+                        style: FooderlichTheme.darkTextTheme.bodyText1),
+                    backgroundColor: Colors.black.withOpacity(0.7),
+                    onDeleted: () {
+                      print('delete');
+                    },
+                  ),
+                ],
               ),
             ),
           ],
