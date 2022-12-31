@@ -21,6 +21,9 @@ class Card2 extends StatelessWidget {
               children: [
                 // TODO 1: add author information
                 // TODO 4:  add Positioned text
+                // 1
+                Expanded(
+                ),
               ],
             )));
   }
