@@ -59,6 +59,10 @@ class Card3 extends StatelessWidget {
               child: Wrap(
                 // 12
                 alignment: WrapAlignment.start,
+                // 13
+                spacing: 12,
+                // 14
+                runSpacing: 12,
               ),
             ),
           ],
