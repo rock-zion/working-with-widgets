@@ -52,6 +52,15 @@ class Card1 extends StatelessWidget {
               style: FooderlichTheme.darkTextTheme.bodyText1,
             ),
           ),
+          // 11
+          Positioned(
+            bottom: 10,
+            right: 0,
+            child: Text(
+              chef,
+              style: FooderlichTheme.darkTextTheme.bodyText1,
+            ),
+          ),
     ));
   }
 }
