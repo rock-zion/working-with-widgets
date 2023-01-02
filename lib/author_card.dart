@@ -66,8 +66,7 @@ class _AuthorCardState extends State<AuthorCard> {
             onPressed: () {
               // 3
               setState(() {
-                _isFavorited:
-                !_isFavorited;
+                _isFavorited = !_isFavorited;
               });
             },
           ),
