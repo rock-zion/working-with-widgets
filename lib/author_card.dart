@@ -58,14 +58,17 @@ class _AuthorCardState extends State<AuthorCard> {
           ),
           // TODO 2: add IconButton
           IconButton(
-            // 4
-            icon: const Icon(Icons.favorite_border),
+            // 1
+            icon: Icon(_isFavorited ? Icons.favorite : Icons.favorite_border),
             iconSize: 30,
-            color: Colors.grey[400],
-            // 5
+            //  2
+            color: Colors.red[400],
             onPressed: () {
-              const snackBar = SnackBar(content: Text('Favourite Pressed'));
-              ScaffoldMessenger.of(context).showSnackBar(snackBar);
+              // 3
+              setState(() {
+                _isFavorited:
+                !_isFavorited;
+              });
             },
           ),
         ],
