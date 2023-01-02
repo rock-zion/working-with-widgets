@@ -20,6 +20,7 @@ class AuthorCard extends StatefulWidget {
 }
 
 class _AuthorCardState extends State<AuthorCard> {
+  bool _isFavorited = false;
   // 2
   @override
   Widget build(BuildContext context) {
